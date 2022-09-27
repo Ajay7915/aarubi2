@@ -3,7 +3,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\ClientMessageController;
 use App\Http\Controllers\Admin\ProductController;
-use App\Http\Controllers\Admin\FrontendController;
+use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\FrontendClientMessageController;
 
 /** Front end Design Code */
@@ -17,12 +17,8 @@ Route::get('/services',[FrontendController::class,'services'])->name('service');
 Route::get('/products',[FrontendController::class,'products'])->name('product');
 Route::get('/contanct',[FrontendController::class,'contacts'])->name('contact');
 
-
-
 // Client Message
 Route::post('message',[FrontendClientMessageController::class,'store'])->name('message');
-
-
 
 
 Route::get('/dashboard', function () {
