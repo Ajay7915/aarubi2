@@ -11,6 +11,8 @@
     <link href="{{asset('assets/vendors/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet" />
     <link href="{{asset('assets/vendors/themify-icons/css/themify-icons.css')}}" rel="stylesheet" />
     <!-- PLUGINS STYLES-->
+    <link href="{{asset('assets/vendors/DataTables/datatables.min.css')}}" rel="stylesheet" />
+
     <link href="{{asset('assets/vendors/jvectormap/jquery-jvectormap-2.0.3.css')}}" rel="stylesheet" />
     <link href="{{asset('assets/vendors/DataTables/datatables.min.css')}}" rel="stylesheet" />
     <!-- THEME STYLES-->
@@ -24,7 +26,7 @@
         <header class="header">
             <div class="page-brand">
                 <a class="link" href="index.html">
-                    <span class="brand">Admin
+                    <span class="brand">Aarubi
                         <span class="brand-tip">CAST</span>
                     </span>
                     <span class="brand-mini">AC</span>
@@ -185,18 +187,23 @@
                         <img src="{{asset('assets/img/admin-avatar.png')}}" width="45px" />
                     </div>
                     <div class="admin-info">
-                        <div class="font-strong">James Brown</div><small>Administrator</small></div>
+                        <div class="font-strong">Aarubi</div><small>Administrator</small></div>
                 </div>
                 <ul class="side-menu metismenu">
                     <li>
-                        <a class="active" href="index.html"><i class="sidebar-item-icon fa fa-th-large"></i>
+                        <a class="active" href="{{route('dashboard.index')}}"><i class="sidebar-item-icon fa fa-th-large"></i>
                             <span class="nav-label">Dashboard</span>
                         </a>
                     </li>
                     
                     <li class="heading">FEATURES</li>
                     <li>
-                        <a class="active" href="index.html"><i class="sidebar-item-icon fa fa-bookmark"></i>
+                        <a class="active" href="{{route('admin_home.index')}}"><i class="sidebar-item-icon fa fa-bookmark"></i>
+                            <span class="nav-label">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="active" href="{{route('admin_about.index')}}"><i class="sidebar-item-icon fa fa-bookmark"></i>
                             <span class="nav-label">About</span>
                         </a>
                     </li>
@@ -273,40 +280,17 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="javascript:;"><i class="sidebar-item-icon fa fa-map"></i>
-                            <span class="nav-label">Maps</span><i class="fa fa-angle-left arrow"></i></a>
-                        <ul class="nav-2-level collapse">
-                            <li>
-                                <a href="maps_vector.html">Vector maps</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="icons.html"><i class="sidebar-item-icon fa fa-smile-o"></i>
-                            <span class="nav-label">Icons</span>
+                        <a class="active" href="{{route('admin_review.index')}}"><i class="sidebar-item-icon fa fa-bookmark"></i>
+                            <span class="nav-label">Review</span>
                         </a>
                     </li>
-                    <li class="heading">PAGES</li>
                     <li>
-                        <a href="javascript:;"><i class="sidebar-item-icon fa fa-envelope"></i>
-                            <span class="nav-label">Mailbox</span><i class="fa fa-angle-left arrow"></i></a>
-                        <ul class="nav-2-level collapse">
-                            <li>
-                                <a href="mailbox.html">Inbox</a>
-                            </li>
-                            <li>
-                                <a href="mail_view.html">Mail view</a>
-                            </li>
-                            <li>
-                                <a href="mail_compose.html">Compose mail</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="calendar.html"><i class="sidebar-item-icon fa fa-calendar"></i>
-                            <span class="nav-label">Calendar</span>
+                        <a class="active" href="{{route('admin_review.index')}}"><i class="sidebar-item-icon fa fa-bookmark"></i>
+                            <span class="nav-label">Client Message</span>
                         </a>
-                    </li> --}}
+                    </li>
+                   
+                   
                     <li>
                         <a href="javascript:;"><i class="sidebar-item-icon fa fa-file-text"></i>
                             <span class="nav-label">Pages</span><i class="fa fa-angle-left arrow"></i></a>

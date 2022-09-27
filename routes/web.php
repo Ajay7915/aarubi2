@@ -1,14 +1,13 @@
 <?php
 
-use App\Http\Controllers\Admin\ClientMessageController;
-use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\DashboardController;
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\ProductController;
+use App\Http\Controllers\Admin\FrontendController;
 
 Route::get('/', function () {
     return view('frontend/index');
 });
-
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -17,6 +16,9 @@ Route::get('/dashboard', function () {
 require __DIR__.'/auth.php';
 
 Route::resource('dashboard',DashboardController::class);
+Route::resource('admin_about',AboutController::class);
+Route::resource('admin_review',ReviewController::class);
+Route::resource('admin_home',HomeController::class);
 
 
 
