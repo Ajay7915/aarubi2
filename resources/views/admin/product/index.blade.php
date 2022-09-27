@@ -39,7 +39,8 @@
                                 <td>{{ $product->description }}</td>
                                 <td>
                                     <form action="{{ route('admin.product.destroy', $product->id) }}" method="POST">
-                                        <a class="btn btn-primary" href="{{ route('admin.product.edit', $product->id) }}"><i
+                                        <a class="btn btn-primary"
+                                            href="{{ route('admin.product.edit', $product->id) }}"><i
                                                 class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
                                         @csrf
                                         @method('DELETE')
