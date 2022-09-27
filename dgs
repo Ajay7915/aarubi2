@@ -1,0 +1,174 @@
+[33mcommit 28a699db68080ba6f42a1f06e7a7cdc42b66c1fc[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Ajay7915 <ajayy7915@gmail.com>
+Date:   Tue Sep 27 16:32:38 2022 +0545
+
+    Dashboard
+
+[33mcommit 5be82ef54680ea740654dd96505228249e801381[m
+Merge: 1045ce8 8293939
+Author: Ajay7915 <ajayy7915@gmail.com>
+Date:   Tue Sep 27 14:11:49 2022 +0545
+
+    Merge branch 'master' of https://github.com/Ajay7915/aarubi2
+
+[33mcommit 1045ce848be90f4e8c9ed210c2f8c86018e48845[m
+Author: Ajay7915 <ajayy7915@gmail.com>
+Date:   Tue Sep 27 14:11:23 2022 +0545
+
+    trash
+
+[33mcommit dc40a84f5c590d7a3af98c84c6e0a4859e103d63[m
+Author: Ajay7915 <ajayy7915@gmail.com>
+Date:   Tue Sep 27 14:11:13 2022 +0545
+
+    trash
+
+[33mcommit 829393949bb5de5346a7e60ebddfe39220780b53[m
+Merge: ce5454d c90b9cc
+Author: Ajay Yadav <105253584+Ajay7915@users.noreply.github.com>
+Date:   Tue Sep 27 14:09:48 2022 +0545
+
+    Merge pull request #5 from lautanskr/master
+    
+    frontend header foter
+
+[33mcommit c90b9cc75337854a0d2cb418ba58fefb4e5e3fe1[m
+Author: lautansukhariya <lawtontharu@gmail.com>
+Date:   Tue Sep 27 14:08:19 2022 +0545
+
+    frotnend header footer
+
+[33mcommit 1bc1e557c1346ab04601146510832869846f9b66[m
+Author: lautansukhariya <lawtontharu@gmail.com>
+Date:   Tue Sep 27 13:47:21 2022 +0545
+
+    backend
+
+[33mcommit 8537a73aa91e7674a2db63e4405c4fb91eac9ef2[m
+Merge: 0a4e903 07383e2
+Author: Lautan Tharu <65996199+lautanskr@users.noreply.github.com>
+Date:   Tue Sep 27 13:40:35 2022 +0545
+
+    Merge pull request #4 from Anjali12234/master
+    
+    about home and review completed
+
+[33mcommit 07383e2fcd99354242c1892914708d25d9ae3a51[m
+Merge: 910dc55 0a4e903
+Author: Lautan Tharu <65996199+lautanskr@users.noreply.github.com>
+Date:   Tue Sep 27 13:40:23 2022 +0545
+
+    Merge branch 'master' into master
+
+[33mcommit 0a4e903148d34d6ac96550c4249ad4ad6a6b5d6a[m
+Merge: f9f8476 ce5454d
+Author: Lautan Tharu <65996199+lautanskr@users.noreply.github.com>
+Date:   Tue Sep 27 13:35:59 2022 +0545
+
+    Merge pull request #3 from Ajay7915/master
+    
+    Product and Message Part Completed
+
+[33mcommit 910dc553377396e0029ff67c0bc6d0f9cb5bdd3f[m
+Author: Anjali12234 <anjisharma649@gmail.com>
+Date:   Tue Sep 27 13:33:42 2022 +0545
+
+    about home and review ommited
+
+[33mcommit ce5454de049a57ffba1c3c515432e505416a6094[m
+Merge: b7966db f9f8476
+Author: Ajay Yadav <105253584+Ajay7915@users.noreply.github.com>
+Date:   Tue Sep 27 13:31:52 2022 +0545
+
+    Merge pull request #3 from lautanskr/master
+    
+    frontend design
+
+[33mcommit f9f847693646d8d6882a690298eca7065c593c31[m
+Merge: 77d621d b7966db
+Author: Lautan Tharu <65996199+lautanskr@users.noreply.github.com>
+Date:   Tue Sep 27 13:30:37 2022 +0545
+
+    Merge branch 'master' into master
+
+[33mcommit b7966db858351b9f6b0d1527bdc97282c4cb57e3[m
+Author: Ajay7915 <ajayy7915@gmail.com>
+Date:   Tue Sep 27 13:25:17 2022 +0545
+
+    Message Completed
+
+[33mcommit f5271da147e36d0ed6e25f07e29ff2aa8d025893[m
+Author: Ajay7915 <ajayy7915@gmail.com>
+Date:   Tue Sep 27 07:25:42 2022 +0545
+
+    Product Part Completed
+
+[33mcommit dfe454cc3ffa66a4a97c17fa49f370b3744c787b[m
+Author: Anjali12234 <anjisharma649@gmail.com>
+Date:   Mon Sep 26 19:11:14 2022 +0545
+
+    crud completed
+
+[33mcommit 77d621d8951ab744fbc83aedb35e6d5483174963[m
+Merge: 90b00ef b9ff9d8
+Author: lautansukhariya <lawtontharu@gmail.com>
+Date:   Mon Sep 26 18:55:46 2022 +0545
+
+    Merge branch 'master' of https://github.com/lautanskr/aarubi
+
+[33mcommit 90b00eff358be4581637023757ce821ffe1abd23[m
+Author: lautansukhariya <lawtontharu@gmail.com>
+Date:   Mon Sep 26 18:54:33 2022 +0545
+
+    Frontend Design
+
+[33mcommit 8e4073668a966b38998e1a951f69921ec80e2880[m
+Author: Ajay7915 <ajayy7915@gmail.com>
+Date:   Mon Sep 26 18:27:35 2022 +0545
+
+    product index committed
+
+[33mcommit c6cf6c8937410fda481e1af5e5d39b7697f4562c[m
+Merge: 9422243 6410618
+Author: Ajay Yadav <105253584+Ajay7915@users.noreply.github.com>
+Date:   Mon Sep 26 16:41:30 2022 +0545
+
+    Merge pull request #2 from Anjali12234/master
+    
+    footer design changed
+
+[33mcommit 6410618879045f758977ebd22ab30412fc4f7f5f[m
+Author: Anjali12234 <anjisharma649@gmail.com>
+Date:   Mon Sep 26 16:38:20 2022 +0545
+
+    footer design changed
+
+[33mcommit 9422243ac21465b22d8f6ba903ac9f2a5f0dacce[m
+Merge: b920060 b9ff9d8
+Author: Ajay Yadav <105253584+Ajay7915@users.noreply.github.com>
+Date:   Mon Sep 26 16:31:53 2022 +0545
+
+    Merge pull request #1 from lautanskr/master
+    
+    merge gara la
+
+[33mcommit b9ff9d867ddfa19edb68dd028c1c0967e778f0be[m
+Merge: b920060 5fbad13
+Author: Lautan Tharu <65996199+lautanskr@users.noreply.github.com>
+Date:   Mon Sep 26 16:22:37 2022 +0545
+
+    Merge pull request #1 from Anjali12234/master
+    
+    dashboard design commit
+
+[33mcommit 5fbad13d8135049d0cadd077ed3049bad416091c[m
+Author: Anjali12234 <anjisharma649@gmail.com>
+Date:   Mon Sep 26 16:16:30 2022 +0545
+
+    dashboard design commit
+
+[33mcommit b920060f92de2d948be7900e5b288e1cf6ee4580[m
+Author: lautansukhariya <lawtontharu@gmail.com>
+Date:   Mon Sep 26 13:01:59 2022 +0545
+
+    start aarubi project
