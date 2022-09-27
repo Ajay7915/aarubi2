@@ -1,13 +1,22 @@
 <?php
 
 use App\Http\Controllers\Admin\DashboardController;
+use App\Http\Controllers\Admin\ClientMessageController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Admin\FrontendController;
+use App\Http\Controllers\FrontendClientMessageController;
 
+/** Front end Design Code */
 Route::get('/', function () {
     return view('frontend/index');
 });
+
+// Client Message
+Route::post('message',[FrontendClientMessageController::class,'store'])->name('message');
+
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -20,8 +29,6 @@ Route::resource('admin_about',AboutController::class);
 Route::resource('admin_review',ReviewController::class);
 Route::resource('admin_home',HomeController::class);
 
-
-
 // Admin Product //
 Route::get('admin_product',[ProductController::class,'index'])->name('admin.product');
 Route::post('admin_product_store',[ProductController::class,'store'])->name('admin.product.store');
@@ -32,3 +39,11 @@ Route::delete('admin_product_destroy\{id}',[ProductController::class,'destroy'])
 
 // Client Message
 Route::get('admin_client_message',[ClientMessageController::class,'index'])->name('admin.client.message');
+
+
+
+
+
+
+
+

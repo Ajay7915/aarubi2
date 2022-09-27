@@ -123,6 +123,7 @@
 <script src="{{asset('frontend/js/parallax.min.js')}}"></script>
 <!-- Main js -->
 <script src="{{asset('frontend/js/main.js')}}"></script>
+
 <script src="{{asset('frontend/js/imagesloaded.pkgd.min.js')}}"></script>
 
 

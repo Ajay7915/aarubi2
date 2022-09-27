@@ -1,27 +1,21 @@
 <?php
 
-namespace App\Http\Controllers\Admin;
+namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
 use App\Models\Message;
 use App\Models\Product;
 use Illuminate\Http\Request;
-use App\Models\Review;
 
-
-class DashboardController extends Controller
+class FrontendClientMessageController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(Review $review)
+    public function index()
     {
-        $review=Review::get()->count();
-        $message = Message::get()->count();
-        $product = Product::get()->count();
-        return view('admin.index',compact('review','message','product'));
+        //
     }
 
     /**
@@ -42,7 +36,22 @@ class DashboardController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'name'=>'required',
+            'email'=>'required',
+            'phone'=>'required',
+            'address'=>'required',
+            'message'=>'required',
+        ]);
+        $data = new Message();
+        $data['client_name'] = $request->name;
+        $data['email'] = $request->email;
+        $data['contact'] = $request->phone;
+        $data['address'] = $request->address;
+        $data['message'] = $request->message;
+        $data->save();
+        return redirect('/')->with('success','Submitted successfully.');
+        
     }
 
     /**
