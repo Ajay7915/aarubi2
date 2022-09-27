@@ -3,6 +3,11 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\ClientMessageController;
 use App\Http\Controllers\Admin\ProductController;
+use App\Http\Controllers\Admin\ServicesController;
+use App\Http\Controllers\Admin\AboutController;
+use App\Http\Controllers\Admin\ContactController;
+use App\Http\Controllers\Admin\HomeController;
+use App\Http\Controllers\Admin\ReviewController;
 use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\FrontendClientMessageController;
 
