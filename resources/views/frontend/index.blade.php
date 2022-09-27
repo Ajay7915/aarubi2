@@ -263,6 +263,160 @@
                             <li><i class="fas fa-check"></i>We are Award Winning Company</li>
                             <li><i class="fas fa-check"></i>Fully Satisfaction Guarantee</li>
                             <li><i class="fas fa-check"></i>35 + Successfull Projects done</li>
+         <!-- Slider Area Start Here -->
+         <section class="slick-slider-wrap-layout1">
+            <div class="slick-slider-layout1">
+                <div class="slick-carousel slick-content" data-slick='{
+                    "slidesToShow": 1,
+                    "slidesToShowTab": 1,
+                    "slidesToShowMobile": 1,
+                    "slidesToShowMobiles": 1,
+                    "slidesToScroll": 1,
+                    "speed": 1000,
+                    "autoplaySpeed": 2000,
+                    "dots": false,
+                    "arrows": false,
+                    "lazyLoad": "progressive",
+                    "pauseOnHover": true,
+                    "autoplay": true,
+                    "centerMode": true,
+                    "adaptiveHeight": false,
+                    "rtl": false,
+                    "asNavFor": ".slick-nav"
+                    }'>
+                    <div class="slick-slider">
+                        <div class="item-img">
+                            <img src="{{asset('frontend/img/slider/slide1-1.jpg')}}" alt="slide">
+                            <div class="item-content">
+                                <div class="big-text">Roofing Inspection</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-slider">
+                        <div class="item-img">
+                            <img src="{{asset('frontend/img/slider/slide1-2.jpg')}}" alt="slide">
+                            <div class="item-content">
+                                <div class="big-text">Roofing Siding</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-slider">
+                        <div class="item-img">
+                            <img src="{{asset('frontend/img/slider/slide1-3.jpg')}}" alt="slide">
+                            <div class="item-content">
+                                <div class="big-text">Roofing Replacement</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-slider">
+                        <div class="item-img">
+                            <img src="{{asset('frontend/img/slider/slide1-4.jpg')}}" alt="slide">
+                            <div class="item-content">
+                                <div class="big-text">Roofing Insulation</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-slider">
+                        <div class="item-img">
+                            <img src="{{asset('frontend/img/slider/slide1-5.jpg')}}" alt="slide">
+                            <div class="item-content">
+                                <div class="big-text">Roofing Gutters</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slick-slider">
+                        <div class="item-img">
+                            <img src="{{asset('frontend/img/slider/slide1-6.jpg')}}" alt="slide">
+                            <div class="item-content">
+                                <div class="big-text">Roofing Repair</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slick-nav-wrap">
+                    <div class="container">
+                        <div class="slick-carousel slick-nav" data-slick='{
+                            "slidesToShow": 6,
+                            "slidesToShowTab": 5,
+                            "slidesToShowMobile": 3,
+                            "slidesToShowMobiles": 2,
+                            "slidesToScroll": 1,
+                            "speed": 1000,
+                            "autoplaySpeed": 2000,
+                            "dots": false,
+                            "arrows": false,
+                            "lazyLoad": "progressive",
+                            "pauseOnHover": true,
+                            "autoplay": true,
+                            "focusOnSelect": true,
+                            "centerMode": false,
+                            "adaptiveHeight": false,
+                            "rtl": false,
+                            "asNavFor": ".slick-content",
+                            "prevArrow": "<span class=\"slick-prev slick-navigation\"><i class=\"flaticon-back\"></i></span>",
+                            "nextArrow": "<span class=\"slick-next slick-navigation\"><i class=\"flaticon-next\"></i></span>"
+                            }'>
+                            <div class="nav-item">
+                                <div class="item-icon">
+                                    <i class="flaticon-roof-4"></i>
+                                </div>
+                                <h4 class="item-title">Inspection</h4>
+                            </div>
+                            <div class="nav-item">
+                                <div class="item-icon">
+                                    <i class="flaticon-roof"></i>
+                                </div>
+                                <h4 class="item-title">Siding</h4>
+                            </div>
+                            <div class="nav-item">
+                                <div class="item-icon">
+                                    <i class="flaticon-roof-1"></i>
+                                </div>
+                                <h4 class="item-title">Replacement</h4>
+                            </div>
+                            <div class="nav-item">
+                                <div class="item-icon">
+                                    <i class="flaticon-roof-3"></i>
+                                </div>
+                                <h4 class="item-title">Insulation</h4>
+                            </div>
+                            <div class="nav-item">
+                                <div class="item-icon">
+                                    <i class="flaticon-roof-2"></i>
+                                </div>
+                                <h4 class="item-title">Gutters</h4>
+                            </div>
+                            <div class="nav-item">
+                                <div class="item-icon">
+                                    <i class="flaticon-broken-house"></i>
+                                </div>
+                                <h4 class="item-title">Roof Repair</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Slider Area End Here -->
+         
+        
+      <!-- About Area Start Here -->
+        <section class="about-wrap-layout5">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-11 col-12">
+                        <div class="about-box-layout8">
+                            <div class="item-content">
+                                <h2 class="item-title">We Have Experienced  Working People</h2>
+                                <p>Bhen an unknown printer took a galley of type and are scrambled it to make a type 
+                                    specimen book. It haeys urvived notbut also the leap electronic type setting remaining 
+                                    essentially.Bhen an unknown printer took a galley of type and are scrambled it to make 
+                                    a type specnotbut also the leap electronic.</p>
+                                <ul class="list-item">
+                                    <li><i class="fas fa-check"></i>Expert &amp; Professional Engineers</li>
+                                    <li><i class="fas fa-check"></i>We are Award Winning Company</li>
+                                    <li><i class="fas fa-check"></i>Fully Satisfaction Guarantee</li>
+                                    <li><i class="fas fa-check"></i>35 + Successfull Projects done</li>
 
                         </ul>
                     </div>
@@ -298,6 +452,14 @@
             <div class="project-single-content">
                 <div class="item-img">
                     <img src="img/project/project13.jpg" alt="Thumbnail">
+        </section>
+        <!-- About Area End Here --> 
+        <!-- Project Area Start Here -->
+        <section class="project-wrap-layout3">
+            <div class="project-box-layout3">
+                <div class="heading-layout1">
+                    <div class="item-subtitle">Working Projects</div>
+                    <h2>Our Latest Projects</h2>
                 </div>
                 <div class="item-content">
                     <div class="item-heading">

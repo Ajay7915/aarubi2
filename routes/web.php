@@ -1,8 +1,8 @@
 <?php
+use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Admin\ClientMessageController;
-use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Admin\FrontendController;
 use App\Http\Controllers\FrontendClientMessageController;
@@ -11,6 +11,14 @@ use App\Http\Controllers\FrontendClientMessageController;
 Route::get('/', function () {
     return view('frontend/index');
 });
+//Frontend Controller
+Route::get('/',[FrontendController::class,'index'])->name('home');
+Route::get('/about',[FrontendController::class,'aboutus'])->name('about');
+Route::get('/services',[FrontendController::class,'services'])->name('service');
+Route::get('/products',[FrontendController::class,'products'])->name('product');
+Route::get('/contanct',[FrontendController::class,'contacts'])->name('contact');
+
+
 
 // Client Message
 Route::post('message',[FrontendClientMessageController::class,'store'])->name('message');
@@ -25,6 +33,10 @@ Route::get('/dashboard', function () {
 require __DIR__.'/auth.php';
 
 Route::resource('dashboard',DashboardController::class);
+Route::resource('admin_service',ServicesController::class);
+Route::resource('admin_product',ProductController::class);
+Route::resource('admin_contact',ContactController::class);
+
 Route::resource('admin_about',AboutController::class);
 Route::resource('admin_review',ReviewController::class);
 Route::resource('admin_home',HomeController::class);

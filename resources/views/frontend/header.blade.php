@@ -28,7 +28,11 @@
     <!-- Owl Carousel js -->
     <link rel="stylesheet" href="{{asset('frontend/vendor/OwlCarousel/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{asset('frontend/vendor/OwlCarousel/owl.theme.default.min.css')}}">
-    <!-- Magnific Popup CSS -->
+  
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" href="{{asset('frontend/vendor/slick/slick.css')}}">
+    <link rel="stylesheet" href="{{asset('frontend/vendor/slick/slick-theme.css')}}">
+      <!-- Magnific Popup CSS -->
     <link rel="stylesheet" href="{{asset('frontend/css/magnific-popup.css')}}">
     <!-- Select 2 CSS -->
     <link rel="stylesheet" href="{{asset('frontend/css/select2.min.css')}}">
@@ -67,7 +71,7 @@
                         </div>
                         <div class="col-lg-2">
                             <div class="logo-area">
-                                <a href="#" class="temp-logo">
+                                <a href="{{route('home')}}" class="temp-logo">
                                     <img src="{{asset('frontend/img/logo.png')}}" alt="logo" class="img-fluid">
                                 </a>
                             </div>
@@ -92,145 +96,20 @@
                            <nav id="dropdown" class="template-main-menu">
                                 <ul>
                                    <li>
-                                        <a href="#">HOME</a>
+                                        <a href="{{route('home')}}">HOME</a>
                                      
                                     </li>
-                                    <li>
-                                        <a href="about1.html">ABOUT</a>
+                                    <li>                
+                                        <a href="{{route('about')}}">ABOUT</a>
                                     </li>
                                     <li>
-                                        <a href="service2.html">SERVICES</a>
+                                        <a href="{{route('service')}}">SERVICES</a>
                                     </li>
                                     <li>
-                                        <a href="#">Products</a>
-                                        <ul class="dropdown-menu-col-1">
-                                            <li>
-                                                <a href="blog1.html">Product 1</a>
-                                            </li>
-                                            <li>
-                                                <a href="blog2.html">Product 2</a>
-                                            </li>
-                                            <li>
-                                                <a href="blog3.html">Product 3</a>
-                                            </li>
-                                            
-                                        </ul>
-                                    </li>
-                                    <li class="possition-static hide-on-mobile-menu">
-                                        <a href="#">PAGES</a>
-                                        <div class="template-mega-menu">
-                                            <div class="container">
-                                                <div class="row">
-                                                    <div class="col-3">
-                                                        <div class="menu-ctg-title">Home</div>
-                                                        <ul class="sub-menu">
-                                                            <li>
-                                                                <a href="index-2.html">
-                                                                    <i class="fas fa-home"></i>Home 1</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="index2.html">
-                                                                    <i class="fas fa-home"></i>Home 2</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="index3.html">
-                                                                    <i class="fas fa-home"></i>Home 3</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="index4.html">
-                                                                    <i class="fas fa-home"></i>Home 4</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-3">
-                                                        <div class="menu-ctg-title">Pages</div>
-                                                        <ul class="sub-menu">
-                                                            <li>
-                                                                <a href="project1.html">
-                                                                    <i class="fas fa-handshake"></i>Projects 1</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="single-project1.html">
-                                                                    <i class="fas fa-handshake"></i>Single Project 1</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="single-project2.html">
-                                                                    <i class="fas fa-handshake"></i>Single Porject 2</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="team1.html">
-                                                                    <i class="fas fa-user-tie"></i>Team 1</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-3">
-                                                        <div class="menu-ctg-title">Pages</div>
-                                                        <ul class="sub-menu">
-                                                            <li>
-                                                                <a href="team2.html">
-                                                                    <i class="fas fa-user-tie"></i>Team 2</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="single-team1.html">
-                                                                    <i class="fas fa-user-tie"></i>Single Team</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="shop1.html">
-                                                                    <i class="fas fa-cart-plus"></i>Shop</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="single-product.html">
-                                                                    <i class="fas fa-cart-plus"></i>Single Product</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                    <div class="col-3">
-                                                        <div class="menu-ctg-title">Pages</div>
-                                                        <ul class="sub-menu">
-                                                            <li>
-                                                                <a href="faq.html">
-                                                                    <i class="fas fa-chalkboard-teacher"></i>Faq Page</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="coming-soon.html">
-                                                                    <i class="fas fa-spinner"></i>Coming Soon</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="404.html">
-                                                                    <i class="fas fa-exclamation-triangle"></i>404 Error</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="contact.html">
-                                                                    <i class="far fa-address-book"></i>Contact</a>
-                                                            </li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="hide-on-desktop-menu">
-                                        <a href="#">Pages</a>
-                                        <ul>
-                                            <li>
-                                                <a href="about1.html">About</a>
-                                            </li>
-                                            <li>
-                                                <a href="service1.html">Services</a>
-                                            </li>
-                                            <li>
-                                                <a href="project1.html">Project</a>
-                                            </li>
-                                            <li>
-                                                <a href="404.html">404 Error</a>
-                                            </li>
-                                            <li>
-                                                <a href="contact.html">Contact</a>
-                                            </li>
-                                        </ul>
+                                        <a href="{{route('product')}}">Products</a>
                                     </li>
                                     <li>
-                                        <a href="contact.html">CONTACT</a>
+                                        <a href="{{route('contact')}}">CONTACT</a>
                                     </li>
                                 </ul>
                             </nav>

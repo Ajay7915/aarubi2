@@ -6,7 +6,7 @@
                 <div class="col-lg-4">
                     <div class="footer-box-layout1">
                         <div class="footer-logo">
-                            <a href="index-2.html"><img src="{{asset('frontend/img/logo-light.png')}}" alt="logo"></a>
+                            <a href="index-2.html"><img src="{{asset('frontend/img/logo.png')}}" alt="logo"></a>
                         </div>
                         <p>We always deliver 100% customer satisfaction and absolute quality 
                             work without any other compromis, just like we've been doing since 1982.</p>
@@ -125,7 +125,8 @@
 <script src="{{asset('frontend/js/main.js')}}"></script>
 
 <script src="{{asset('frontend/js/imagesloaded.pkgd.min.js')}}"></script>
-
+ <!-- Slick Slider js -->
+ <script src="{{asset('frontend/vendor/slick/slick.min.js')}}"></script>
 
 </body>
 

@@ -3,29 +3,22 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use App\Models\Message;
-use App\Models\Product;
 use Illuminate\Http\Request;
-use App\Models\Review;
-use App\Models\Service;
 use App\Models\Contact;
 
-
-class DashboardController extends Controller
+class ContactController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index(Review $review)
+    public function index()
     {
-        $review=Review::get()->count();
-        $service=Service::get()->count();
-        $contact=Contact::get()->count();
-        $message = Message::get()->count();
-        $product = Product::get()->count();
-        return view('admin.index',compact('review','service','contact','message','product'));
+        $data=Contact::latest()->paginate(100000);
+        return view('admin.contact.index',compact('data'))
+            ->with('i', (request()->input('page', 1) - 1) * 10);
+        
     }
 
     /**
@@ -35,7 +28,7 @@ class DashboardController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.contact.create');
     }
 
     /**
@@ -46,7 +39,23 @@ class DashboardController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
+        $request->validate([
+            'name' => 'required',
+            'email' => 'required',
+            'message'=> 'required'
+        ]);
+        
+        $data= new Contact;
+        $data->name=$request->input('name');
+        $data->email=$request->input('email');
+        $data->address=$request->input('address');
+       $data->message=$request->input('message');
+        
+        
+        $data->save();
+        return redirect('admin_contact');
+  
     }
 
     /**
@@ -91,6 +100,10 @@ class DashboardController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $contact=Contact::findOrfail($id);
+        $contact->delete();
+       
+        return redirect()->route('admin_contact.index')
+                        ->with('success','Data deleted successfully');
     }
 }

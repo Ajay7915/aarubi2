@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -130,3 +131,4 @@
         </div>
     </body>
 </html>
+>>>>>>> 21ae958f30133f90c6e14d9245dcf3d70b1d3cd0
