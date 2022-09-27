@@ -321,23 +321,11 @@
                                 <div class="help-block with-errors"></div>
                             </div>
                             <div class="col-12 form-group">
-                                <select class="select2" name="city">
-                                    <option value="0">City</option>
-                                    <option value="Australia">Australia</option>
-                                    <option value="England">England</option>
-                                    <option value="London">London</option>
-                                    <option value="United States">United States</option>
-                                </select>
+                                <input type="text" placeholder="Phone*" class="form-control" name="phone" data-error="Phone field is required" required>
                                 <div class="help-block with-errors"></div>
                             </div>
                             <div class="col-12 form-group">
-                                <select class="select2" name="subject">
-                                    <option value="0">Interested In</option>
-                                    <option value="Australia">Australia</option>
-                                    <option value="England">England</option>
-                                    <option value="London">London</option>
-                                    <option value="United States">United States</option>
-                                </select>
+                                <input type="text" placeholder="Phone*" class="form-control" name="phone" data-error="Phone field is required" required>
                                 <div class="help-block with-errors"></div>
                             </div>
                             <div class="col-12 form-group">
